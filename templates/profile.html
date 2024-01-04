@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block title %}
+    Welcome to Assignment-01
+{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{url_for('static',filename='profile.css')}}" />
+<body>
+    <div class="profile-box">
+        <div class="prof-content">
+            <h1>Your profiles</h1>
+            <p>See how your different profiles appear in this business model</p>
+            <div>
+                <img  class="prof-1" src="{{url_for('static',filename='images/prof1.png')}}" />
+                <img class="prof-2" src="{{url_for('static',filename='images/prof2.png')}}" />
+            </div>
+        </div>
+        <div class="see-prof">
+            <a href="#">See Profiles</a>
+        </div>
+    </div>
+</body>
+{% endblock %}

@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{url_for('static',filename='login.css')}}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&family=Sail&display=swap" rel="stylesheet">
+    <title>Business Sign in</title>
+</head>
+<body>
+    <div class="login-form-container">
+        <form class="login-form" method="POST">
+            {{form.hidden_tag()}}
+            <h2 class="form-title">Business Sign in</h2>
+            <p style="text-align: center; font-size: 20px; color: rgb(69 69 69); font-weight:bold;">Welcome back!</p>
+
+            <div>
+                {{form.username.label()}}
+                {{form.username(class="username", placeholder="Enter username")}}
+            </div>
+
+            <div>
+                {{form.password.label()}}
+                {{form.password(class="password", placeholder="Enter password")}}
+            </div>
+
+            {{form.submit(class="submit")}}
+
+            <div class="sign-up">Not a member? <a href="/signup">Sign up</a></div>
+            
+            <div class="foot-content">By continuing you agree to follow waze Business's
+                <a href="/tnc">Terms and Conditions</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

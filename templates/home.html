@@ -1,0 +1,16 @@
+﻿{% extends 'base.html' %}
+{% block title %}
+    Welcome to Assignment-01
+{% endblock %}
+
+{% block content %}
+    <link rel="stylesheet" href="{{url_for('static',filename='home.css')}}"/>
+   <body>
+       <div class="business-box">
+           <h1>Business</h1>
+           <h1>Development</h1>
+           <p class="desc">Have an idea or inquiry for waze business development?</p>
+           <a class="show-idea-btn" href="{{url_for('subscriptions_page')}}" >Share your Ideas</a>
+       </div>
+   </body>
+{% endblock %}

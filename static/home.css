@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.business-box {
+    margin: 60px auto;
+    width: 600px;
+    padding: 120px 50px;
+    padding-bottom: 160px !important;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 30px;
+}
+
+h1{
+    line-height: 24px;
+    font-size: 50px;
+}
+
+.desc{
+    margin-top: 15px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: rgb(61, 61, 61);
+}
+
+.show-idea-btn {
+    background-color: white;
+    padding: 15px 35px;
+    margin-left: 30px;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px;
+    color: rgb(60, 60, 60);
+    cursor: pointer;
+    box-shadow: 0 2px 5px gray;
+    transition: background-color color 0.8s ease-in-out;
+    text-decoration: none;
+}
+
+    .show-idea-btn:hover {
+        background-color: black;
+        color: white;
+    }

@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.subscriptions-box {
+    margin: 60px auto;
+    width: 500px;
+    padding: 0;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 30px;
+    padding-bottom: 30px!important;
+}
+
+.s-box {
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    width: 500px;
+    height: auto;
+}
+
+.box-middle-content {
+    margin-top: 20px;
+    padding-left: 30px !important;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.desc-text {
+    color: #0000004F;
+    padding-top: 8px;
+    margin-left: 12px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.main-body {
+    padding-left: 30px;
+    margin-top: 8px;
+}
+
+h2{
+    font-weight: 500;
+}
+
+.bottom-text {
+    color: rgb(75, 75, 75);
+    margin-bottom: 40px;
+}
+
+.view-details-btn {
+    background-color: white;
+    padding: 15px 35px;
+    margin-left: 30px;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    color: rgb(0, 121, 208);
+    cursor: pointer;
+    border: 1px solid #0000004F;
+    border-radius: 5px;
+    transition: background-color color 0.8s ease-in-out;
+    text-decoration: none;
+}
+
+    .view-details-btn:hover {
+        background-color: rgb(232, 232, 232);
+    }

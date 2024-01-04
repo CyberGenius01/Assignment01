@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block title %}
+    Subscriptions
+{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{url_for('static',filename='subscriptions.css')}}" />
+<body>
+    <div class="subscriptions-box">
+        <img class="s-box" src="{{url_for('static',filename='images/istockphoto-1418476287-170667a.webp')}}" />
+        <div class="box-middle-content">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256">
+                    <g fill-opacity="0.3098" fill="rgb(75, 75, 75)" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,1c-3.32381,0 -6,2.67619 -6,6v1c-1.09306,0 -2,0.90694 -2,2v10c0,1.09306 0.90694,2 2,2h12c1.09306,0 2,-0.90694 2,-2v-10c0,-1.09306 -0.90694,-2 -2,-2v-1c0,-3.32381 -2.67619,-6 -6,-6zM12,3c2.27619,0 4,1.72381 4,4v1h-8v-1c0,-2.27619 1.72381,-4 4,-4zM6,10h12v10h-12zM12,13c-1.1,0 -2,0.9 -2,2c0,1.1 0.9,2 2,2c1.1,0 2,-0.9 2,-2c0,-1.1 -0.9,-2 -2,-2z"></path></g></g>
+                </svg>
+            </div>
+            <div class="desc-text">SUSCRIBE TO ANY PLAN</div>
+        </div>
+        <div class="main-body">
+            <h2>Get more Features in Waze Business</h2>
+            <p class="bottom-text">Bring your inner creativity to life using premium features of this Business model, extended
+            to IOS, Apple, Windows. Subject to eligiblility.</p>
+        </div>
+        <p>
+            <a class="view-details-btn" href="#">View details</a>
+        </p>
+    </div>
+</body>
+{% endblock %}
